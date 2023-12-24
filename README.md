@@ -16,6 +16,10 @@ use below commands and procedure to setup the project (if you don't have install
 
    ### `npm start`
 
+5. After entering these commands open your favourite browser and enter http://localhost:3000/
+
+6. Then you can see Application 
+
 In the project directory, you can run:
 
 ### `npm start`
