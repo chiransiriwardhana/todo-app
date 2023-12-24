@@ -1,8 +1,21 @@
-# Getting Started with Create React App
+# How to setup the project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# use below commands to setup the project (if you don't have installed node.js and npm in local machine then install those first)
 
-## Available Scripts
+goto terminal and enter following commands
+
+### `git clone https://github.com/chiransiriwardhana/todo-app.git`
+
+open project folder using VS code
+
+goto VS code terminal and enter 
+###  `npm install`  
+
+to install all dependencies.
+
+then enter
+
+### `npm start`
 
 In the project directory, you can run:
 
