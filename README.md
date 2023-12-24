@@ -4,17 +4,17 @@ use below commands and procedure to setup the project (if you don't have install
 
 1. goto terminal and enter following command.
 
-### `git clone https://github.com/chiransiriwardhana/todo-app.git`
+   ### `git clone https://github.com/chiransiriwardhana/todo-app.git`
 
 2. open project folder using VS code
 
-3. goto VS code terminal and enter to install all dependencies.
+3. goto VS code terminal and enter below command to install all dependencies.
    
-###  `npm install`  
+   ###  `npm install`  
 
 4. then enter following command to start application
 
-### `npm start`
+   ### `npm start`
 
 In the project directory, you can run:
 
