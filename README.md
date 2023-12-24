@@ -1,6 +1,6 @@
 # How to setup the project
 
-# use below commands to setup the project (if you don't have installed node.js and npm in local machine then install those first)
+use below commands to setup the project (if you don't have installed node.js and npm in local machine then install those first)
 
 goto terminal and enter following commands
 
