@@ -2,18 +2,17 @@
 
 use below commands and procedure to setup the project (if you don't have installed node.js and npm in local machine then install those first)
 
-goto terminal and enter following commands
+1. goto terminal and enter following command.
 
 ### `git clone https://github.com/chiransiriwardhana/todo-app.git`
 
-open project folder using VS code
+2. open project folder using VS code
 
-goto VS code terminal and enter 
+3. goto VS code terminal and enter to install all dependencies.
+   
 ###  `npm install`  
 
-to install all dependencies.
-
-then enter
+4. then enter following command to start application
 
 ### `npm start`
 
