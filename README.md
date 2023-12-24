@@ -20,7 +20,13 @@ use below commands and procedure to setup the project (if you don't have install
 
 6. Then you can see Application 
 
-In the project directory, you can run:
+# Features of application
+
+1. Redux Toolkit has been used for state management
+2. Plain CSS has been used for styling the application.
+3. There are two seperate tabs for completed and not completed/active tasks. Not completed tasks are in 'todo' tab and completed tasks are in 'completed' tab. you can delete tasks if they are completed in both tabs. Also you can send completed tasks to 'completed' tab after finishing. Then within completed tab also you can delete completed tasks if needed.
+4. changes are note deleted after page refresh.
+5. you can drag and drop high priority task to top to show them as first todos. 
 
 ### `npm start`
 
