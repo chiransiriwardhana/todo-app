@@ -4,6 +4,15 @@ body {
   overflow: hidden;
 }
 
+@media screen and (max-width: 300px) {
+    .btn-area {
+      width: 20%;
+    }
+    .todo-wrapper {
+      width: 70%;
+    }
+}
+
 h1 {
   text-align: center;
   color: white;
@@ -13,12 +22,13 @@ h1 {
 .todo-wrapper {
   background: white;
   padding: 2%;
-  width: fit-content;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3%;
-  max-height: 80vh;
-  overflow-y: auto;
+  max-height: 70vh;
+  overflow: hidden;
+  overflow-y: scroll;
   box-shadow: 0px 5px 7px rgb(27,27,27);
   border-radius: 10px;
 }
@@ -36,19 +46,20 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-right: 0px;
+  width: 90%;
 }
 
 .todo-input-item label {
   font-weight: bold;
   margin-bottom: 10px;
   font-family: monospace;
+  color: white;
 }
 
 .todo-input-item input {
   padding: 10px;
   border: none;
-  width: 140vh; 
+  width: 100%; 
   background-color: rgb(227, 230, 228);
 
 }
@@ -79,8 +90,13 @@ h1 {
 }
 
 .btn-area {
-  margin-left: 144vh;
+  margin-left: 0%;
+  margin-right: 10%;
   margin-bottom: 15px;
+  display: inline-block;
+  background: blue;
+  width: 200px;
+  
 }
 
 .secondaryBtn {
@@ -90,8 +106,9 @@ h1 {
   padding: 10px;
   color: white;
   cursor: pointer;
-  width : fit-content;
+  width : 50%;
   font-family: monospace;
+
 }
 
 .secondaryBtn:hover {
@@ -104,6 +121,7 @@ h1 {
   padding: 10px;
   color: white;
   cursor: pointer;
+  width: 50%;
 }
 
 .todo-list {
@@ -113,20 +131,18 @@ h1 {
 
 .todo-list-item {
   background-color: rgb(227, 230, 228);
-  /* display: flex; */
-  /* justify-content: space-between; */
   align-items: center;
   padding: 25px;
+  padding-right: 2px;
   padding-bottom: 10px;
   padding-top: 10px;
   margin-bottom: 10px;
   box-shadow: 0px 3px 5px rgb(240, 240, 240);
-  cursor: move;
-  
+  cursor: move;  
 }
 
 .todo-list-item h6 {
-  font-size: 18px;
+  font-size: 1vw;
   color: black;
   font-weight: lighter;
   margin: 0;
@@ -134,21 +150,32 @@ h1 {
 }
 
 .icons {
+justify-content: center;
+justify-items: center;
  float: right;
- margin-left: 148vh;
- margin-top:-23px
+ margin-top: -18px;
+ width:10%;
+ padding-right: -60%;
+ 
 }
 
 .icon {
-  font-size: 25px;
-  margin-left: 10px;
+  font-size: 1.5vw;
   cursor: pointer;
   justify-items: right;
+  margin-left: 20%;
+}
+
+.icon-completed {
+  font-size: 1.5vw;
+  cursor: pointer;
+  justify-items: right;
+  margin-left: 50%;
 }
 
 .check-icon {
-  font-size: 25px;
-  margin-left: 10px;
+  font-size: 1.5vw;
+  margin-left: 20%;
   color: orangered;
   cursor: pointer;
   position: relative;
