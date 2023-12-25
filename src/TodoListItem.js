@@ -17,7 +17,7 @@ export const ItemCompleted = ({ id, title, completed }) => {
         <div className='todo-list-item'>
             <h6>{title}</h6>
             <div className="icons">
-                <RiDeleteBin5Line className='icon' onClick={handleDeleteClick} />
+                <RiDeleteBin5Line className='icon-completed' onClick={handleDeleteClick} />
                 {!completed && <FaCheckSquare className="check-icon" />}
             </div>
         </div>
