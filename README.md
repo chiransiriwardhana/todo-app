@@ -28,7 +28,7 @@ use below commands and procedure to setup the project (if you don't have install
 4. Can add incomplete todos using add button. (Newly added todos are showing in the end of list. please scroll down to see that. You can prioritize it by dragging to top if needed)
 5. There are two seperate tabs for completed and not completed/active tasks. Not completed tasks are in 'todo' tab and completed tasks are in 'completed' tab. you can delete tasks if they are completed in both tabs. Also you can send completed tasks to 'completed' tab after finishing. Then within completed tab also you can delete completed tasks if needed.
 6. changes are note deleted after page refresh.
-7. you can drag and drop high priority task to top to show them as first todos. 
+7. you can drag and drop high priority task to top to show them as first todos. ( react-beautiful-dnd package was used for implementing drag and drop feture )
 
 # Redux Toolkit's role in this project
 
